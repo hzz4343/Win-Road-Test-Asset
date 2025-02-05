@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url(/fonts/Merriweather/Merriweather-Bold.ttf);
+} 
+
+body {
+    font-family: 'Merriweather';
+    font-size: xxx-large;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #c4dcac;
+    user-select: none;
+}
+
+.win-road-logo {
+    border-radius: 10em;
+    margin: 1em;
+}
+
+.container {
+    text-align: right;
+}
+
+.head-text {
+    position: absolute;
+    top: 15px;
+    left: 500px;
+    color: rgb(88, 86, 86);
+}
+
+.win1 {
+    position: absolute;
+    top: 40%;
+    left: 320px;
+}
+
+.win2 {
+    position: absolute;
+    top: 40%;
+    left: 640px;
+}
+
+.win3 {
+    position: absolute;
+    top: 40%;
+    left: 960px;
+}
+
+.apple {
+    display: block;
+    padding: 1em;
+    position: absolute;
+    top: 65%;
+    left: 100px;
+}
+
+.google {
+    display: block;
+    padding: 1em;
+    position: absolute;
+    top: 80%;
+    left: 100px;
+}
+
+.background-design {
+    position: absolute;
+    top: 25%;
+    right: -4500px;
+}
