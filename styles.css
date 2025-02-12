@@ -235,6 +235,11 @@ body {
 
 /* laptop screens/smaller monitor screens */
 @media screen and (min-width: 1025px) and (max-width: 1919px) {
+    .win-road-logo {
+        width: 20%;
+        left: 73%;
+    }
+
     .head-text {
         top: -5%;
     }
@@ -246,5 +251,17 @@ body {
     .background-design {
         top: 5%;
         right: -4850px;
+    }
+
+    .apple {
+        top: 57.5%;
+    }
+
+    .google {
+        top: 75%;
+    }
+
+    .email {
+        top: 70%;
     }
 }
