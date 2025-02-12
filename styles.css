@@ -7,18 +7,16 @@
 body {
     font-family: 'Merriweather';
     font-size: xxx-large;
-    height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
     background-color: #c4dcac;
-    user-select: none;
 }
 
 .win-road-logo {
     border-radius: 10em;
     margin: 1em;
     position: absolute;
-    left: 1350px;
+    left: 70%;
 }
 
 .container {
@@ -26,28 +24,27 @@ body {
 }
 
 .head-text {
-    position: absolute;
-    top: 1px;
-    left: 575px;
+    position: fixed;
+    left: 30%;
     color: rgb(0, 0, 0);
 }
 
 .win1 {
-    position: absolute;
+    position: fixed;
     top: 30%;
-    left: 300px;
+    left: 15%;
 }
 
 .win2 {
-    position: absolute;
+    position: fixed;
     top: 30%;
-    left: 600px;
+    left: 30%;
 }
 
 .win3 {
-    position: absolute;
+    position: fixed;
     top: 30%;
-    left: 900px;
+    left: 45%;
 }
 
 .apple {
@@ -85,7 +82,7 @@ body {
     color: rgb(0, 0, 0);
     position: absolute;
     top: 55%;
-    left: 1490px;
+    left: 77.5%;
     text-decoration: underline;
 }
 
@@ -94,7 +91,7 @@ body {
     color: black;
     position: absolute;
     top: 65%;
-    left: 1445px;
+    left: 75%;
     font-size: xx-large;
 }
 
@@ -233,5 +230,21 @@ body {
 
     .background-design {
         display: none;
+    }
+}
+
+/* laptop screens/smaller monitor screens */
+@media screen and (min-width: 1025px) and (max-width: 1919px) {
+    .head-text {
+        top: -5%;
+    }
+
+    .download {
+        top: 45%;
+    }
+
+    .background-design {
+        top: 5%;
+        right: -4850px;
     }
 }
