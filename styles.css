@@ -17,6 +17,8 @@ body {
 .win-road-logo {
     border-radius: 10em;
     margin: 1em;
+    position: absolute;
+    left: 1350px;
 }
 
 .container {
@@ -27,7 +29,7 @@ body {
     position: absolute;
     top: 1px;
     left: 575px;
-    color: rgb(88, 86, 86);
+    color: rgb(0, 0, 0);
 }
 
 .win1 {
@@ -68,4 +70,168 @@ body {
     position: absolute;
     top: 25%;
     right: -4500px;
+}
+
+.download {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 55%;
+    left: 75px;
+    text-decoration: underline;
+}
+
+/* optional */
+.contact {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 55%;
+    left: 1490px;
+    text-decoration: underline;
+}
+
+/* optional */
+.email {
+    color: black;
+    position: absolute;
+    top: 65%;
+    left: 1445px;
+    font-size: xx-large;
+}
+
+/* phones */
+@media (max-width: 768px) {
+    body {
+        font-size: large;
+        overflow-y: auto;
+    }
+
+    .win-road-logo {
+        display: block;
+        position: static;
+        margin: 1em auto;
+        width: 80%;
+        height: auto;
+        border-radius: 10em;
+        align-items: center;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .head-text {
+        font-size: xxx-large;
+        position: static;
+        margin: 1em auto;
+    }
+
+    .win1, .win2, .win3 {
+        position: relative;
+        display: block;
+        margin: 1em auto;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+    }
+
+    .apple, .google {
+        position: static;
+        display: block;
+        margin: 1em auto;
+    }
+
+    .download {
+        font-size: xxx-large;
+        position: static;
+        margin: 2em auto;
+        text-align: center;
+    }
+
+    .contact {
+        font-size: xxx-large;
+        position: static;
+        margin: 2em auto;
+        text-align: center;
+    }
+
+    .email {
+        font-size: xx-large;
+        position: static;
+        margin: 1em auto;
+        text-align: center;
+    }
+
+    .background-design {
+        display: none;
+    }
+}
+
+/* tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        overflow-y: auto;
+        font-size: xxxx-large;
+    }
+
+    .win-road-logo {
+        display: block;
+        position: static;
+        margin: 1em auto;
+        width: 80%;
+        height: auto;
+        border-radius: 10em;
+        align-items: center;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .head-text {
+        font-size: xxxx-large;
+        position: static;
+        margin: 1em auto;
+    }
+
+    .win1, .win2, .win3 {
+        position: relative;
+        display: block;
+        margin: 1em auto;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+    }
+
+    .apple, .google {
+        position: static;
+        display: block;
+        margin: 1em auto;
+        width: 50%;
+        height: 50%;
+    }
+
+    .download {
+        font-size: xxxx-large;
+        position: static;
+        margin: 2em auto;
+        text-align: center;
+    }
+
+    .contact {
+        font-size: xxxx-large;
+        position: static;
+        margin: 2em auto;
+        text-align: center;
+    }
+
+    .email {
+        font-size: xxxx-large;
+        position: static;
+        margin: 1em auto;
+        text-align: center;
+    }
+
+    .background-design {
+        display: none;
+    }
 }
