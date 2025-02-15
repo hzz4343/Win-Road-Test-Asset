@@ -1,296 +1,301 @@
-
 @font-face {
-    font-family: 'Anton';
-    src: url(/fonts/fonts/Anton-Regular.ttf);
+  font-family: 'Anton';
+  src: url(fonts/fonts/Anton-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    src: url(fonts/fonts/Merriweather-Regular.ttf);
+  font-family: 'Merriweather';
+  src: url(fonts/fonts/Merriweather-Regular.ttf);
 }
 
 body {
-    font-size: xxx-large;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    background-color: #c4dcac;
-    color: #588681;
+  font-size: xxx-large;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #c4dcac;
+  color: #588681;
 }
 
 .win-road-logo {
-    border-radius: 10em;
-    margin: 1em;
-    position: absolute;
-    left: 70%;
+  border-radius: 10em;
+  margin: 1em;
+  position: absolute;
+  left: 70%;
 }
 
 .container {
-    text-align: right;
+  text-align: right;
 }
 
 .head-text {
-    font-family: 'Anton';
-    position: fixed;
-    left: 33%;
-    font-weight:lighter
+  font-family: 'Anton';
+  position: fixed;
+  left: 33%;
+  font-weight: lighter;
 }
 
 .subheading {
-    font-family: 'Merriweather';
-    font-size: xx-large;
-    position: fixed;
-    left: 37%;
+  font-family: 'Merriweather';
+  font-size: xx-large;
+  position: fixed;
+  left: 40%;
 }
 
 .win1 {
-    position: fixed;
-    top: 30%;
-    left: 15%;
+  position: fixed;
+  top: 30%;
+  left: 15%;
 }
 
 .win2 {
-    position: fixed;
-    top: 30%;
-    left: 30%;
+  position: fixed;
+  top: 30%;
+  left: 30%;
 }
 
 .win3 {
-    position: fixed;
-    top: 30%;
-    left: 45%;
+  position: fixed;
+  top: 30%;
+  left: 45%;
 }
 
 .apple {
-    display: block;
-    padding: 1em;
-    position: absolute;
-    top: 70%;
-    left: 75px;
+  display: block;
+  padding: 1em;
+  position: absolute;
+  top: 70%;
+  left: 75px;
 }
 
 .google {
-    display: block;
-    padding: 1em;
-    position: absolute;
-    top: 70%;
-    left: 200px;
+  display: block;
+  padding: 1em;
+  position: absolute;
+  top: 70%;
+  left: 200px;
 }
 
 .background-design {
-    position: absolute;
-    top: 25%;
-    right: -4500px;
+  position: absolute;
+  top: 25%;
+  right: -4500px;
 }
 
 .download {
-    font-family: 'Merriweather';
-    position: absolute;
-    top: 60%;
-    left: 75px;
+  font-family: 'Merriweather';
+  position: absolute;
+  top: 60%;
+  left: 75px;
 }
 
 /* optional */
 .contact {
-    font-family: 'Merriweather';
-    position: absolute;
-    top: 60%;
-    left: 79%;
+  font-family: 'Merriweather';
+  position: absolute;
+  top: 60%;
+  left: 79%;
 }
 
 /* optional */
 .email {
-    font-family: 'Merriweather';
-    position: absolute;
-    top: 72%;
-    left: 76%;
-    font-size: x-large;
+  font-family: 'Merriweather';
+  position: absolute;
+  top: 72%;
+  left: 76%;
+  font-size: x-large;
 }
 
 /* phones */
 @media (max-width: 768px) {
-    body {
-        font-size: large;
-        overflow-y: auto;
-    }
+  body {
+    font-size: large;
+    overflow-y: auto;
+  }
 
-    .win-road-logo {
-        display: block;
-        position: static;
-        margin: 1em auto;
-        width: 80%;
-        height: auto;
-        border-radius: 10em;
-        align-items: center;
-    }
+  .win-road-logo {
+    display: block;
+    position: static;
+    margin: 1em auto;
+    width: 80%;
+    height: auto;
+    border-radius: 10em;
+    align-items: center;
+  }
 
-    .container {
-        text-align: center;
-    }
+  .container {
+    text-align: center;
+  }
 
-    .head-text {
-        font-size: xxx-large;
-        position: static;
-        margin: 1em auto;
-    }
+  .head-text {
+    font-size: xxx-large;
+    font-weight: bold;
+    position: static;
+    margin: 1em auto;
+  }
 
-    .subheading {
-        position: static;
-    }
+  .subheading {
+    position: static;
+  }
 
-    .win1, .win2, .win3 {
-        position: relative;
-        display: block;
-        margin: 1em auto;
-        left: -50%;
-        width: 200%;
-        height: 200%;
-    }
+  .win1,
+  .win2,
+  .win3 {
+    position: relative;
+    display: block;
+    margin: 1em auto;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+  }
 
-    .apple, .google {
-        position: static;
-        display: block;
-        margin: 1em auto;
-    }
+  .apple,
+  .google {
+    position: static;
+    display: block;
+    margin: 1em auto;
+  }
 
-    .download {
-        font-size: xxx-large;
-        position: static;
-        margin: 1em auto;
-        text-align: center;
-    }
+  .download {
+    font-size: xxx-large;
+    position: static;
+    margin: 1em auto;
+    text-align: center;
+  }
 
-    .contact {
-        font-size: xxx-large;
-        position: static;
-        margin: 1em auto;
-        text-align: center;
-    }
+  .contact {
+    font-size: xxx-large;
+    position: static;
+    margin: 1em auto;
+    text-align: center;
+  }
 
-    .email {
-        font-size: x-large;
-        position: static;
-        margin: 1em auto;
-        text-align: center;
-    }
+  .email {
+    font-size: x-large;
+    position: static;
+    margin: 1em auto;
+    text-align: center;
+  }
 
-    .background-design {
-        display: none;
-    }
+  .background-design {
+    display: none;
+  }
 }
 
 /* tablets */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    body {
-        overflow-y: auto;
-        font-size: xxxx-large;
-    }
+  body {
+    overflow-y: auto;
+    font-size: xxxx-large;
+  }
 
-    .win-road-logo {
-        display: block;
-        position: static;
-        margin: 1em auto;
-        width: 80%;
-        height: auto;
-        border-radius: 10em;
-        align-items: center;
-    }
+  .win-road-logo {
+    display: block;
+    position: static;
+    margin: 1em auto;
+    width: 80%;
+    height: auto;
+    border-radius: 10em;
+    align-items: center;
+  }
 
-    .container {
-        text-align: center;
-    }
+  .container {
+    text-align: center;
+  }
 
-    .head-text {
-        font-size: xxxx-large;
-        position: static;
-        margin: 1em auto;
-    }
+  .head-text {
+    font-size: xxxx-large;
+    position: static;
+    margin: 1em auto;
+  }
 
-    .subheading {
-        font-size: xxx-large;
-        position: static;
-    }
+  .subheading {
+    font-size: xxx-large;
+    position: static;
+  }
 
-    .win1, .win2, .win3 {
-        position: relative;
-        display: block;
-        margin: 1em auto;
-        left: -25%;
-        width: 150%;
-        height: 150%;
-    }
+  .win1,
+  .win2,
+  .win3 {
+    position: relative;
+    display: block;
+    margin: 1em auto;
+    left: -25%;
+    width: 150%;
+    height: 150%;
+  }
 
-    .apple, .google {
-        position: static;
-        display: block;
-        margin: 1em auto;
-        width: 50%;
-        height: 50%;
-    }
+  .apple,
+  .google {
+    position: static;
+    display: block;
+    margin: 1em auto;
+    width: 50%;
+    height: 50%;
+  }
 
-    .download {
-        font-size: xxx-large;
-        position: static;
-        margin: 2em auto;
-        text-align: center;
-    }
+  .download {
+    font-size: xxx-large;
+    position: static;
+    margin: 2em auto;
+    text-align: center;
+  }
 
-    .contact {
-        font-size: xxxx-large;
-        position: static;
-        margin: 2em auto;
-        text-align: center;
-    }
+  .contact {
+    font-size: xxxx-large;
+    position: static;
+    margin: 2em auto;
+    text-align: center;
+  }
 
-    .email {
-        font-size: xxxx-large;
-        position: static;
-        margin: 1em auto;
-        text-align: center;
-    }
+  .email {
+    font-size: xxxx-large;
+    position: static;
+    margin: 1em auto;
+    text-align: center;
+  }
 
-    .background-design {
-        display: none;
-    }
+  .background-design {
+    display: none;
+  }
 }
 
 /* laptop screens/smaller monitor screens */
 @media screen and (min-width: 1025px) and (max-width: 1919px) {
-    .win-road-logo {
-        width: 20%;
-        left: 73%;
-    }
+  .win-road-logo {
+    width: 20%;
+    left: 73%;
+  }
 
-    .head-text {
-        top: -5%;
-    }
+  .head-text {
+    top: -5%;
+  }
 
-    .download {
-        top: 47%;
-    }
+  .download {
+    top: 47%;
+  }
 
-    .background-design {
-        top: 5%;
-        right: -4850px;
-    }
+  .background-design {
+    top: 5%;
+    right: -4850px;
+  }
 
-    .apple {
-        top: 57.5%;
-    }
+  .apple {
+    top: 57.5%;
+  }
 
-    .google {
-        top: 57.5%;
-    }
+  .google {
+    top: 57.5%;
+  }
 
-    .contact {
-        top: 50%;
-        margin: 1em auto;
-    }
+  .contact {
+    top: 50%;
+    margin: 1em auto;
+  }
 
-    .email {
-        top: 60%;
-        margin: 1em auto;
-        font-size: large;
-        left: 78%;
-    }
-
+  .email {
+    top: 60%;
+    margin: 1em auto;
+    font-size: large;
+    left: 78%;
+  }
 }
