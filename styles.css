@@ -1,15 +1,20 @@
 
 @font-face {
+    font-family: 'Anton';
+    src: url(/fonts/fonts/Anton-Regular.ttf);
+}
+
+@font-face {
     font-family: 'Merriweather';
-    src: url(/fonts/Merriweather/Merriweather-Bold.ttf);
-} 
+    src: url(fonts/fonts/Merriweather-Regular.ttf);
+}
 
 body {
-    font-family: 'Merriweather';
     font-size: xxx-large;
     overflow-x: hidden;
     overflow-y: hidden;
     background-color: #c4dcac;
+    color: #588681;
 }
 
 .win-road-logo {
@@ -24,9 +29,17 @@ body {
 }
 
 .head-text {
+    font-family: 'Anton';
     position: fixed;
-    left: 30%;
-    color: rgb(0, 0, 0);
+    left: 33%;
+    font-weight:lighter
+}
+
+.subheading {
+    font-family: 'Merriweather';
+    font-size: xx-large;
+    position: fixed;
+    left: 37%;
 }
 
 .win1 {
@@ -51,16 +64,16 @@ body {
     display: block;
     padding: 1em;
     position: absolute;
-    top: 65%;
-    left: 100px;
+    top: 70%;
+    left: 75px;
 }
 
 .google {
     display: block;
     padding: 1em;
     position: absolute;
-    top: 80%;
-    left: 100px;
+    top: 70%;
+    left: 200px;
 }
 
 .background-design {
@@ -70,29 +83,27 @@ body {
 }
 
 .download {
-    color: rgb(0, 0, 0);
+    font-family: 'Merriweather';
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 75px;
-    text-decoration: underline;
 }
 
 /* optional */
 .contact {
-    color: rgb(0, 0, 0);
+    font-family: 'Merriweather';
     position: absolute;
-    top: 55%;
-    left: 77.5%;
-    text-decoration: underline;
+    top: 60%;
+    left: 79%;
 }
 
 /* optional */
 .email {
-    color: black;
+    font-family: 'Merriweather';
     position: absolute;
-    top: 65%;
-    left: 75%;
-    font-size: xx-large;
+    top: 72%;
+    left: 76%;
+    font-size: x-large;
 }
 
 /* phones */
@@ -122,6 +133,10 @@ body {
         margin: 1em auto;
     }
 
+    .subheading {
+        position: static;
+    }
+
     .win1, .win2, .win3 {
         position: relative;
         display: block;
@@ -140,19 +155,19 @@ body {
     .download {
         font-size: xxx-large;
         position: static;
-        margin: 2em auto;
+        margin: 1em auto;
         text-align: center;
     }
 
     .contact {
         font-size: xxx-large;
         position: static;
-        margin: 2em auto;
+        margin: 1em auto;
         text-align: center;
     }
 
     .email {
-        font-size: xx-large;
+        font-size: x-large;
         position: static;
         margin: 1em auto;
         text-align: center;
@@ -190,13 +205,18 @@ body {
         margin: 1em auto;
     }
 
+    .subheading {
+        font-size: xxx-large;
+        position: static;
+    }
+
     .win1, .win2, .win3 {
         position: relative;
         display: block;
         margin: 1em auto;
-        left: -50%;
-        width: 200%;
-        height: 200%;
+        left: -25%;
+        width: 150%;
+        height: 150%;
     }
 
     .apple, .google {
@@ -208,7 +228,7 @@ body {
     }
 
     .download {
-        font-size: xxxx-large;
+        font-size: xxx-large;
         position: static;
         margin: 2em auto;
         text-align: center;
@@ -245,7 +265,7 @@ body {
     }
 
     .download {
-        top: 45%;
+        top: 47%;
     }
 
     .background-design {
@@ -258,10 +278,19 @@ body {
     }
 
     .google {
-        top: 75%;
+        top: 57.5%;
+    }
+
+    .contact {
+        top: 50%;
+        margin: 1em auto;
     }
 
     .email {
-        top: 70%;
+        top: 60%;
+        margin: 1em auto;
+        font-size: large;
+        left: 78%;
     }
+
 }
