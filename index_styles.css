@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url(fonts/fonts/Merriweather-Regular.ttf);
+}
+
+body {
+    font-size: xx-large;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #c4dcac;
+    color: #588681;
+    font-family: 'Merriweather';
+    text-align: center;
+}
+
+img {
+    border-radius: 15em;
+    margin: 1em;
+}
+
+/* phones */
+@media (max-width: 768px) {
+    body {
+        font-size: large;
+        overflow-y: auto;
+    }
+    
+    .win-road-logo {
+        display: block;
+        position: static;
+        margin: 1em auto;
+        width: 80%;
+        height: auto;
+        border-radius: 10em;
+        align-items: center;
+    }
+}
